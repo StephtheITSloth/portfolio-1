@@ -1,0 +1,16 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.projects {
+    @include gradient;
+        width: 100vw;
+        min-width: 350px;
+        height: 100vh;
+        text-transform: capitalize;
+        font-family: 'Barlow Condensed', sans-serif;
+        display: inline-block;
+        font-weight:650;
+        font-family: 'Barlow Condensed', sans-serif;
+    }

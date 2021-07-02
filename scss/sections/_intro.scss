@@ -1,0 +1,35 @@
+
+@use '../_custom.scss' as *; 
+@use '../components/mixins' as *;
+
+.intro-section {
+    @include gradient;
+    padding: 5rem 000;
+    width: 100vw;
+    min-width: 350px;
+    height: 125vh;
+}
+
+.photo{
+    width: 100px;
+    // height:200px;
+    border: 12px solid rgba(245, 245, 245, 0.5);
+    border-radius: 7px;
+    margin-top: 400px;
+    // padding: 180px 1px;
+    padding: 90px 0px 179px 0px;
+}
+
+.icon-description{
+    padding: 0.5rem;
+
+    &:hover {
+        color: black;
+        cursor: pointer;
+
+    }
+}
+
+.wave{
+    margin-top: 20px;
+}
